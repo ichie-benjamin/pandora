@@ -1,0 +1,134 @@
+/* Responsive Full Background Image Using CSS
+ * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
+*/
+body {
+  /* Location of the image */
+  background-image: url(images/bg.jpg);
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+
+
+
+html, body, .container {
+  height: 100%;
+}
+
+/* Reset */
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+/* Basic */
+body {
+  font: 18px/23px "Cantarell", sans-serif;
+  color: #ffffff;
+}
+
+
+
+.inner {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  display: table;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.link {
+  border: 2px solid #d6ab2b;
+  padding: 30px;
+  width: 200px;
+  margin-top: 10px;
+  font-weight: 800;
+  background-color: black;
+  color: #d6ab2b;
+}
+a {
+  text-decoration: none;
+  color: #d6ab2b;
+}
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Special */
+.sub-title {
+  margin: 50px auto;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+#more-content {
+  display: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 340px) {
+
+  .container {
+    position: relative;
+    display: block;
+    float: left;
+    vertical-align: baseline;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+  }
+
+  body h1 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .sub-title {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  html, body, .container {
+    height: auto;
+  }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/bg-mobile.jpg);
+  }
+  .link {
+    padding: 30px;
+    width: 140px;
+    margin-top: 10px;
+  }
+}
