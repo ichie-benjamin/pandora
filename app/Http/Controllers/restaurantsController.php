@@ -38,7 +38,6 @@ class restaurantsController extends AppBaseController
 
     public function getRes($slug)
     {
-        $restaurants = $this->restaurantsRepository->all();
         $featured = Restaurants::where('slug','!=',$slug)->get();
         $galleries = [
         [],[],[],[],[]
@@ -49,7 +48,7 @@ class restaurantsController extends AppBaseController
             return redirect()->route('home');
         }
         return view('res.view')
-            ->with(['restaurants' => $restaurants,'featured' => $featured,'galleries' => $galleries, 'res' => $res]);
+            ->with(['featured' => $featured,'galleries' => $galleries, 'res' => $res]);
     }
 
     /**
