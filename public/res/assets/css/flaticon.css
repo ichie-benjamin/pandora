@@ -1,0 +1,65 @@
+/*
+Flaticon icon font: Flaticon
+*/
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/Flaticon.eot");
+	src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/Flaticon.woff2") format("woff2"),
+	url("../fonts/Flaticon.woff") format("woff"),
+	url("../fonts/Flaticon.ttf") format("truetype"),
+	url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	}
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}
+
+.flaticon-dots-menu:before { content: "\f100"; }
+.flaticon-right-arrow:before { content: "\f101"; }
+.flaticon-left-arrow:before { content: "\f102"; }
+.flaticon-play:before { content: "\f103"; }
+.flaticon-note:before { content: "\f104"; }
+.flaticon-money:before { content: "\f105"; }
+.flaticon-blood-donation:before { content: "\f106"; }
+.flaticon-volunteer:before { content: "\f107"; }
+.flaticon-folder:before { content: "\f108"; }
+.flaticon-conference:before { content: "\f109"; }
+.flaticon-population-system:before { content: "\f10a"; }
+.flaticon-donate:before { content: "\f10b"; }
+.flaticon-brochure:before { content: "\f10c"; }
+.flaticon-euro:before { content: "\f10d"; }
+.flaticon-writing:before { content: "\f10e"; }
+.flaticon-folder-1:before { content: "\f10f"; }
+.flaticon-open-file:before { content: "\f110"; }
+.flaticon-bicycle:before { content: "\f111"; }
+.flaticon-pyramid:before { content: "\f112"; }
+.flaticon-ballot:before { content: "\f113"; }
+.flaticon-enthusiast:before { content: "\f114"; }
+.flaticon-engineer:before { content: "\f115"; }
+.flaticon-calendar:before { content: "\f116"; }
+.flaticon-minute:before { content: "\f117"; }
+.flaticon-coffee:before { content: "\f118"; }
+.flaticon-facebook:before { content: "\f119"; }
+.flaticon-twitter:before { content: "\f11a"; }
+.flaticon-linkedin:before { content: "\f11b"; }
+.flaticon-instagram:before { content: "\f11c"; }
+.flaticon-mic:before { content: "\f11d"; }
+.flaticon-graduation-cap:before { content: "\f11e"; }
+.flaticon-balloons:before { content: "\f11f"; }
+.flaticon-left-quotes-sign:before { content: "\f120"; }
+.flaticon-email:before { content: "\f121"; }
+.flaticon-send:before { content: "\f122"; }
+.flaticon-call:before { content: "\f123"; }
+.flaticon-aim:before { content: "\f124"; }
+.flaticon-timer:before { content: "\f125"; }
+.flaticon-promotion:before { content: "\f126"; }
