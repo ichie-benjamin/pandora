@@ -5,35 +5,19 @@ namespace App\Http\Controllers;
 use App\Http\Requests\CreaterestaurantsRequest;
 use App\Http\Requests\UpdaterestaurantsRequest;
 use App\Models\Restaurants;
-use App\Repositories\restaurantsRepository;
-use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
 use Flash;
 use Response;
 
 class restaurantsController extends AppBaseController
 {
-    /** @var  restaurantsRepository */
-    private $restaurantsRepository;
 
-    public function __construct(restaurantsRepository $restaurantsRepo)
-    {
-        $this->restaurantsRepository = $restaurantsRepo;
-    }
-
-    /**
-     * Display a listing of the restaurants.
-     *
-     * @param Request $request
-     *
-     * @return Response
-     */
     public function index(Request $request)
     {
-        $restaurants = $this->restaurantsRepository->all();
-
-        return view('restaurants.index')
-            ->with('restaurants', $restaurants);
+//        $restaurants = $this->restaurantsRepository->all();
+//
+//        return view('restaurants.index')
+//            ->with('restaurants', $restaurants);
     }
 
     public function getRes($slug)
