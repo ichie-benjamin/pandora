@@ -27,14 +27,14 @@
         </div>
         <div class="">
             <button onclick="goToURL('home')" class="link">VOTE</button>
-            <button  class="link">GALLERY</button>
+            <button  class="link">LIVE</button>
         </div>
-        <div>
-            <button class="link">ABOUT</button>
-            <button class="link">CONTACT</button>
-        </div>
+{{--        <div>--}}
+{{--            <button class="link">ABOUT</button>--}}
+{{--            <button class="link">CONTACT</button>--}}
+{{--        </div>--}}
 
-        <div class="mt-4" ><a class="h4" href="#">HELP DESK</a></div>
+        <div class="mt-4" ><a class="h4 help" href="/home">HELP DESK</a></div>
 
     </section>
 </header>

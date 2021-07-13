@@ -47,7 +47,7 @@
                                             PANDORA
                                         </div>
                                         <span>We want to reward Efforts</span>
-                                        <h1>Stand for your favourite Restaurant</h1>
+                                        <h1>Stand for your favourite Chef</h1>
                                         <div class="slider-btn">
                                             <a href="#" class="default-btn">
                                                 Join the Campaign
@@ -94,7 +94,7 @@
                 <div class="sports-item">
                     <img class="res-img" src="{{ $item->photo }}" alt="image">
                     <div class="content">
-                        <span>Restaurant</span>
+                        <span>Chef</span>
                         <h3>{{ $item->name }}</h3>
                         <p>{{ $item->about }}</p>
                         <a href="{{ route('res.view',$item->slug) }}">
@@ -131,7 +131,7 @@
                             <div class="back-text">
                                 Campaign &
                             </div>
-                            <h3>Vote For your Favourite Restaurant</h3>
+                            <h3>Vote For your Favourite Chef</h3>
                         </div>
                         <div class="tab about-list-tab">
                             <ul class="tabs">
@@ -150,7 +150,7 @@
                             </ul>
                             <div class="tab_content">
                                 <div class="tabs_item">
-                                    <p>Identify by favourite restaurant, vote and campaign for them to gain more votes, to campaign, simply share the link of your favourite Restaurant with friends and fmily.</p>
+                                    <p>Identify by favourite Chef, vote and campaign for them to gain more votes, to campaign, simply share the link of your favourite Chef with friends and fmily.</p>
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="about-text">
@@ -158,7 +158,7 @@
                                                     <i class="flaticon-practice"></i>
                                                 </div>
                                                 <h3>Your Vote Counts</h3>
-                                                <p>Make your favourite restaurant stand out by placing multiple votes</p>
+                                                <p>Make your favourite Chef stand out by placing multiple votes</p>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
@@ -170,7 +170,7 @@
                                     </div>
                                 </div>
                                 <div class="tabs_item">
-                                    <p>We put up together a system to celebrate and encourage the efforts of the high performing restaurants in Abuja</p>
+                                    <p>We put up together a system to celebrate and encourage the efforts of the high performing Chefs in Abuja</p>
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <div class="about-text">
@@ -178,8 +178,8 @@
                                                     <i class="flaticon-practice"></i>
                                                 </div>
                                                 <h3>You Get To Know What You Are Doing</h3>
-                                                <p>The {{ env('APP_NAME') }} gives customers a platform to air their view concerning a particular restaurant, many people have never had opportunities to pass feed backs
-                                                 across to restaurant directors and management, but with {{ env('APP_NAME') }} you can do that easily</p>
+                                                <p>The {{ env('APP_NAME') }} gives customers a platform to air their view concerning a particular Chef, many people have never had opportunities to pass feed backs
+                                                 across to Chef directors and management, but with {{ env('APP_NAME') }} you can do that easily</p>
                                             </div>
                                         </div>
                                     </div>
@@ -202,8 +202,8 @@
                 <div class="back-text">
                     FEATURED
                 </div>
-                <span>Our Featured Restaurants</span>
-                <h2>Check Our Featured Restaurants</h2>
+                <span>Our Featured Chefs</span>
+                <h2>Check Our Featured Chefs</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation uuip ex ea commodo.</p>
             </div>
             @foreach($res as $item)
@@ -215,7 +215,7 @@
                 </div>
                 <div class="col-lg-7 col-md-12">
                     <div class="matches-content">
-                        <span>Restaurant</span>
+                        <span>Chef</span>
                         <h3>{{ $item->name }}</h3>
                         <p>{{ $item->about }}.</p>
                     </div>
@@ -228,7 +228,7 @@
             </div>
             @endforeach
             <div class="more-btn">
-                <a href="#">Search For Your Favourite Restaurant</a>
+                <a href="#">Search For Your Favourite Chef</a>
             </div>
         </div>
     </section>
@@ -249,7 +249,7 @@
                 </div>
             </div>
             <div class="coming-soon-btn">
-                <a href="#">Vote Your Favourite Restaurant</a>
+                <a href="#">Vote Your Favourite Chef</a>
             </div>
         </div>
     </section>
@@ -262,7 +262,7 @@
                     More Votes
                 </div>
                 <span>More Units</span>
-                <h2>More chances for your restaurant</h2>
+                <h2>More chances for your Chef</h2>
                 <p>Voting is completely free, get more units for more voting power</p>
             </div>
             <div class="row">

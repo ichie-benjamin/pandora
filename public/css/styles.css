@@ -61,6 +61,10 @@ body {
   width: 100%;
 }
 
+.help {
+    color :  red;
+}
+
 .link {
   border: 2px solid #d6ab2b;
   padding: 30px;

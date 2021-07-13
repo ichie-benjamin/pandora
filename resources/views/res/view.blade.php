@@ -16,9 +16,6 @@
                                         Vote Us
                                         <i class="flaticon-promotion"></i>
                                     </a>
-                                    <a href="#" class="optional-btn">
-                                        Contact Us
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +150,7 @@
         <div class="container">
             <div class="section-title">
                 <span>Why this pandora events</span>
-                <h4 class="text-white">This event is to encourage the highest performing restaurant to keep up</h4>
+                <h4 class="text-white">This event is to encourage the highest performing Chef to keep up</h4>
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -197,10 +194,10 @@
         <div class="container">
             <div class="section-title">
                 <div class="back-text">
-                    RESTAURANT
+                    Chef
                 </div>
-                <span>Featured Restaurants</span>
-                <h2>Our  <strong>Featured </strong> Restaurants</h2>
+                <span>Featured Chefs</span>
+                <h2>Our  <strong>Featured </strong> Chefs</h2>
             </div>
             <div class="row">
                 @foreach($featured as $item)
@@ -267,7 +264,7 @@
                                     <i class="flaticon-coffee"></i>
                                 </div>
                                 <h3>10</h3>
-                                <p>Active Restaurant</p>
+                                <p>Active Chef</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">

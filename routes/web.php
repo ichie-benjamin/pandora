@@ -25,6 +25,7 @@ Auth::routes();
 Route::get('/home', [PagesController::class, 'index'])->name('home');
 
 Route::get('/seeder/res', [ SeederController::class, 'res'])->name('seeder.res');
+Route::get('/seeder/delete', [ SeederController::class, 'delete'])->name('seeder.delete');
 
 Route::get('/restaurant/{slug}', [restaurantsController::class, 'getRes'])->name('res.view');
 

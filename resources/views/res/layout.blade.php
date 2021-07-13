@@ -63,13 +63,13 @@
                                 <a href="{{ route('home') }}" class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">About</a>
+                                <a href="#" class="nav-link">About Pandora</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Contact Us</a>
+                                <a href="#" class="nav-link">Pandora Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://prokitchen.ng/" target="_blank" class="nav-link">Prokitchen</a>
+                                <a href="https://prokitchen.ng/" target="_blank" class="nav-link">Food Delivery</a>
                             </li>
 
                         </ul>
