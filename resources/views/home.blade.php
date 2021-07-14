@@ -175,7 +175,7 @@
                     <div class="sidebar-info-contents">
                         <div class="content-inner">
                             <div class="logo">
-                                <a href="{{ route('home') }}"><img src="images/logo-2.png" alt="" /></a>
+                                <a href="{{ route('home') }}"><img src="images/logo.png" alt="" /></a>
                             </div>
                             <div class="content-box">
                                 <h2>About Us</h2>
@@ -187,7 +187,7 @@
                                     pooled to form Pandora Events Limited to complement existing efforts in the sector and surpass demands
                                     with client satisfaction.
                                     .</p>
-                                <a href="#" class="theme-btn btn-style-two"><span class="txt">Consultation</span></a>
+                                <a href="#" class="theme-btn btn-style-two"><span class="txt">JOIN THIS EVENT</span></a>
                             </div>
                             <div class="contact-info">
                                 <h2>Contact Info</h2>
@@ -786,7 +786,7 @@
 <div class="search-popup">
     <button class="close-search style-two"><span class="flaticon-multiply"></span></button>
     <button class="close-search"><span class="flaticon-up-arrow-1"></span></button>
-    <form method="post" action="#">
+    <form method="get" action="#">
         <div class="form-group">
             <input type="search" name="search-field" value="" placeholder="Search Your Favourite Chef Here" required="">
             <button type="submit"><i class="fa fa-search"></i></button>
