@@ -21,7 +21,7 @@ return [
             'users' => 'c,r,u,d',
             'profile' => 'r,u'
         ],
-        'res' => [
+        'chef' => [
             'users' => 'c,r,u,d',
             'profile' => 'r,u'
         ],

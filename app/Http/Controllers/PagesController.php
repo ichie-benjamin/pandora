@@ -12,4 +12,9 @@ class PagesController extends Controller
         $res = Restaurants::latest()->get();
         return view('home', compact('res'));
     }
+    public function chefs()
+    {
+        $chefs = Restaurants::latest()->paginate(9);
+        return view('chefs', compact('chefs'));
+    }
 }

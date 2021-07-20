@@ -23,11 +23,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [PagesController::class, 'index'])->name('home');
+Route::get('/chefs', [PagesController::class, 'chefs'])->name('chefs');
 
 Route::get('/seeder/res', [ SeederController::class, 'res'])->name('seeder.res');
 Route::get('/seeder/delete', [ SeederController::class, 'delete'])->name('seeder.delete');
 
-Route::get('/restaurant/{slug}', [restaurantsController::class, 'getRes'])->name('res.view');
+Route::get('/chef/{slug}', [restaurantsController::class, 'getRes'])->name('res.view');
 
 
 Route::resource('restaurants', App\Http\Controllers\restaurantsController::class);

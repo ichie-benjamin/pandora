@@ -69,7 +69,7 @@ class LaratrustSeeder extends Seeder
                 $user = \App\Models\User::create([
                     'first_name' => str_replace(' ', '_', $key),
                     'email' => $key.'@pandoraevents.ng',
-                    'phone' => '08192939929'. Str::length($key),
+                    'phone' => '081929399'. Str::length($key). rand(1,9),
                     'password' => bcrypt('password2365')
                 ]);
                 $user->attachRole($role);

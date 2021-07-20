@@ -30,6 +30,19 @@
         .invalid-feedback {
             display: block;
         }
+
+        @media only screen and (max-width: 991px) {
+            .mean-container a.meanmenu-reveal {
+                padding: 24px 15px 0 0;
+                color: #000!important;
+            }
+            .mean-container a.meanmenu-reveal span {
+                background-color: #212529;
+            }
+            .mean-container .mean-bar {
+                background-color: #fff;
+            }
+        }
     </style>
 </head>
 <body data-spy="scroll" data-offset="120">
@@ -46,8 +59,8 @@
     <div class="navbar-area">
 
         <div class="mobile-nav">
-            <a href="index.html" class="logo">
-                <img src="/res/assets/img/logo2.png" alt="Logo">
+            <a href="{{ route('home') }}" class="logo">
+                <img style="height: 60px" src="/images/logo.png" alt="Logo">
             </a>
         </div>
 

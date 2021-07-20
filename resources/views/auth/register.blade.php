@@ -39,7 +39,7 @@
                         </div>
                         <div class="col-12">
                             <div class="form-group">
-                                <input class="form-control" type="text" name="email" placeholder="Email Address">
+                                <input class="form-control" type="text" required name="email" placeholder="Email Address">
                                 @if ($errors->has('email'))
                                     <span class="invalid-feedback">
                                         <strong>{{ $errors->first('email') }}</strong>
@@ -49,7 +49,7 @@
                         </div>
                         <div class="col-12">
                             <div class="form-group">
-                                <input class="form-control" type="text" name="phone" placeholder="Phone Number">
+                                <input class="form-control" required type="text" name="phone" placeholder="Phone Number">
                                 @if ($errors->has('phone'))
                                     <span class="invalid-feedback">
                                         <strong>{{ $errors->first('phone') }}</strong>
@@ -77,6 +77,23 @@
                                 @endif
                             </div>
                         </div>
+
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label>User Type (Pls select if you are a voter or a chef)</label>
+                                <select class="form-control" name="type" required>
+                                    <option disabled>Select</option>
+                                    <option value="user">Voter</option>
+                                    <option value="chef">Chef</option>
+                                </select>
+                                @if ($errors->has('type'))
+                                    <span class="invalid-feedback">
+                                        <strong>{{ $errors->first('type') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
                         <div class="col-12">
                             <button class="default-btn btn-two" type="submit">
                                 Register
